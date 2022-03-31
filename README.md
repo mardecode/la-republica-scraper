@@ -1,15 +1,15 @@
-# la-republica-scraper
+# 📰 La república scraper
 
 This repository downloads the daily news from the Colombian newspaper **La República** https://www.larepublica.co/
 
 The steps performed are:
 
-- The links to each news are obtained
-- Access to each news
-- The title, summary, and body of the news are extracted
-- Each news is stored in a .txt file
+- 🔗 The links to each news are obtained
+- 📰 Access to each news
+- 🧾 The title, summary, and body of the news are extracted
+- 📂 Each news is stored in a `news_title`.txt file,
 
-Each time we run the scraper.py file, it will download the current day's news by creating a folder  where the program will store the information. Each folder is named with the date it was executed. All folders were stored in the main folder called `data` if this folder doesn't exist, the program will create it. 
+Each time we run the scraper.py file, it will download the current day's news by creating a folder  where the program will store the information. **Each folder is named with the date it was executed**. All folders were stored in the main folder called 📂 `data` if this folder doesn't exist, the program will create it. 
 
 
 ## Requirements
