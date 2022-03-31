@@ -9,7 +9,6 @@ The steps performed are:
 - 🧾 The title, summary, and body of the news are extracted
 - 📂 Each news is stored in a `news_title`.txt file,
 
-Each time we run the scraper.py file, it will download the current day's news by creating a folder  where the program will store the information. **Each folder is named with the date it was executed**. All folders were stored in the main folder called 📂 `data` if this folder doesn't exist, the program will create it. 
 
 
 ## Requirements
@@ -27,5 +26,7 @@ pip3 install lxml
 ```
 python3 scraper.py
 ```
+Each time we run the `scraper.py` file, it will download the current day's news by creating a folder  where the program will store the information. **Each folder is named with the date it was executed**. All folders were stored in the main folder called 📂 `data` if this folder doesn't exist, the program will create it. 
+
 
 > Please consider that this repository may stop working since La República is constantly changing its HTML structure. If this happens, feel free to leave an issue.
