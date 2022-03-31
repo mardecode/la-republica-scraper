@@ -66,8 +66,8 @@ def parse_home():
       # print(links_to_notices)
 
       today = datetime.date.today().strftime('%d-%m-%Y')
-      if not os.path.isdir(today):
-        os.mkdir(today)
+      if not os.path.isdir("data/"+today):
+        os.mkdir("data/"+today)
       for link in links_to_notices:
         parse_notice(link,today)
     else: 
@@ -76,6 +76,8 @@ def parse_home():
     print(ve)
 
 def run():
+  if not os.path.isdir("data"):
+    os.mkdir("data")
   parse_home()
 
 

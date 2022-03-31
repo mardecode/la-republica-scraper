@@ -9,7 +9,7 @@ The steps performed are:
 - The title, summary, and body of the news are extracted
 - Each news is stored in a .txt file
 
-Each time we run the scraper.py file, it will download the current day's news by creating a folder  where the program will store the information. Each folder is named with the date it was executed.
+Each time we run the scraper.py file, it will download the current day's news by creating a folder  where the program will store the information. Each folder is named with the date it was executed. All folders were stored in the main folder called `data` if this folder doesn't exist, the program will create it. 
 
 
 ## Requirements
