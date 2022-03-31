@@ -1,6 +1,8 @@
 # 📰 La república scraper
 
-Este repositorio descarga las noticias diarias del periódico Colombiano **La República** https://www.larepublica.co/
+##### English version [here](https://github.com/margarcuae/la-republica-scraper)
+
+Este repositorio descarga las noticias diarias del periódico Colombiano [**La República**](https://www.larepublica.co/)
 
 Los pasos que se realizan son:
 

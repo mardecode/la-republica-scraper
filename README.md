@@ -1,6 +1,9 @@
 # 📰 La república scraper
 
-This repository downloads the daily news from the Colombian newspaper **La República** https://www.larepublica.co/
+##### Versión en español [aquí](https://github.com/margarcuae/la-republica-scraper/blob/main/README(es).md)
+
+
+This repository downloads the daily news from the Colombian newspaper [**La República**](https://www.larepublica.co/) 
 
 The steps performed are:
 
